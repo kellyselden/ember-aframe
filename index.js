@@ -52,6 +52,7 @@ function runAFrame() {
 
 module.exports = {
   name: require('./package').name,
+<<<<<<< HEAD
 
   included() {
     runAFrame();
@@ -118,4 +119,6 @@ module.exports = {
 
     return tree;
   }
+=======
+>>>>>>> 5ae4089... v3.21.2...v3.24.0
 };

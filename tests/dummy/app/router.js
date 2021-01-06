@@ -6,6 +6,7 @@ export default class Router extends EmberRouter {
   rootURL = config.rootURL;
 }
 
+<<<<<<< HEAD
 Router.map(function() {
   this.route('vr', function() {
     this.route('hello-world');
@@ -17,3 +18,6 @@ Router.map(function() {
   });
   this.route('list');
 });
+=======
+Router.map(function () {});
+>>>>>>> 5ae4089... v3.21.2...v3.24.0
